@@ -91,6 +91,8 @@
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <!-- Style -->
     <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./assets/CSS/responsive.css" />
     <!-- Animate Style-->
     <link
       rel="stylesheet"
@@ -106,7 +108,10 @@
         <div class="header-top">
           <!-- Logo -->
           <a href="./"
-            ><img src="./assets/img/Logo1.png" alt="Shine Smile" class="logo"
+            ><img
+              src="./assets/img/Logo1.png"
+              alt="Shine Smile"
+              class="logo header__logo"
           /></a>
           <!-- Nav -->
           <nav class="navbar">
@@ -165,6 +170,34 @@
         </section>
       </div>
     </header>
+
+    <!-- Tablet/Mobile header -->
+    <div class="mobile-header">
+      <!-- Tablet/Menu -->
+      <input
+        type="checkbox"
+        name="menu-checkbox"
+        id="menu-checkbox"
+        class="menu-checkbox"
+      />
+      <label for="menu-checkbox">
+        <svg
+          class="menu-header__icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30px"
+          height="30px"
+          viewBox="0 0 448 512"
+        >
+          <path
+            fill="currentColor"
+            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
+      <!-- Overlay -->
+      <label for="menu-checkbox" class="menu-overlay"></label>
+    </div>
+
     <!-- MAIN -->
     <main>
       <!-- Khối Service -->
